@@ -1,0 +1,29 @@
+
+header {
+  @include flexbox-center;
+  flex-direction: column;
+  margin-bottom: 64px;
+ 
+  img {
+    height: 128px;
+    width: 128px;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    transition: 0.2s;
+    &:hover {
+      outline: 4px solid $color-white;
+    }
+  }
+ 
+  h1 {
+    font-size: 4rem;
+    font-weight: 500;
+  }
+   
+  p {
+    margin-top: 8px;
+    font-size: 2.4rem;
+    color: $bg-color;
+    font-weight: 400;
+  }
+}

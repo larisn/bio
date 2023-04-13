@@ -1,0 +1,85 @@
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: $font-main;
+}
+ 
+ul, ol {
+   list-style: none;
+   margin: 0;
+   padding: 0;
+}
+ 
+a {
+   text-decoration: none;
+}
+ 
+img {
+   max-width: 100%;
+   height: auto;
+   display: block;
+}
+ 
+p, h1, h2, h3, h4, h5, h6 {
+   margin: 0;
+}
+ 
+button, input {
+   border: 0;
+   font-family: $font-main; 
+   background: none;
+   border: none;
+   color: inherit;
+   font: 400 1.6rem 'Nunito Sans', sans-serif;
+   width: 100%;
+   &:focus {
+     border: none;
+   }
+}
+
+button {
+   cursor: pointer;
+}
+ 
+body {
+   font-family: $font-main; 
+   font-size: 1.3rem;
+   color: $color-white;
+   background-color: $bg-color;
+   overflow-x: hidden;
+   margin-top: 30px;
+}
+ 
+html {
+   scroll-behavior: smooth;
+   font-size: 62.5%; 
+}
+
+// others
+
+:focus-visible {
+   outline: 2px solid var($color-white);
+   outline-offset: 2px;
+}
+
+::-webkit-scrollbar {
+   width: 6px;
+   height: 6px;
+   display: none;
+}
+
+::-webkit-scrollbar-track {
+   background-color: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+   background-color: $color-purple3;
+   border-radius: 10px;
+}
+
+::selection {
+   background-color: $color-purple4;
+   color: #DDDAE5;
+}

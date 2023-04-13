@@ -1,0 +1,15 @@
+
+$font-main: 'Nunito Sans', sans-serif;
+$bg-color: #030007;
+$color-white: #DDDAE5;
+
+$color-purple1: #6256b4;
+$color-purple2: #aaa3ce;
+$color-purple3: #554d8b;
+$color-purple4: #393266;
+
+@mixin flexbox-center() {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
