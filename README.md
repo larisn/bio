@@ -7,9 +7,9 @@
 <br>
 
 <h4 align="center">
-<a href="https://bio-mu-brown.vercel.app/" target="_blank">Clique para acessar</a>
+<a href="https://bio-mu-brown.vercel.app/">Clique para acessar</a>
 </h4>
 <p align="center">
-Inspirado no <a href="https://www.instagram.com/iuricode/" target="_blank">iuricode</a>
+Inspirado no <a href="https://www.instagram.com/iuricode/">iuricode</a>
 </p>
 
